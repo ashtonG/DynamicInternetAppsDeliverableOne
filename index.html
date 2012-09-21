@@ -1,127 +1,192 @@
 <!DOCTYPE HTML>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Simple Blog</title>
-		<link rel="stylesheet" href="style.css" />
-		<!--<link rel="stylesheet" href="https://www.dropbox.com/s/ast7qk03yed3oyu/style.css?dl=1" />-->
-	</head>
-	<body>
-		<header>
-			<h1>A Simple Blog</h1>
-			<h2>By Lorem Ipsum</h2>
-		</header>
-		<nav id="topNav">
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Archives</a></li>
-			</ul>
-			<div id="search">
-				<input type="text" />
-				<input type="button" value="Search" />
-			</div>
-		</nav>
-		<div id="content">
-			<article>
-				<header>
-					<h3>Dolor Sit Amet</h3>
-					<h4>DATEGOESHERE</h4>
-				</header>
-				<!--lorem-->
-				<p>Dui, fermentum quis, feugiat imperdiet, imperdiet id, sapien. Phasellus
-				auctor nunc. Vivamus eget augue quis neque vestibulum placerat. Duis placerat.
-				Maecenas accumsan rutrum lacus. Vestibulum lacinia semper nibh. Aenean diam
-				odio, scelerisque at, ullamcorper nec, tincidunt dapibus, quam. Duis vel ante
-				nec tortor porta mollis. Praesent orci. Cras dignissim vulputate metus.</p>
+<head>
+	<meta charset="UTF-8">
+	<title>Sodexo Dining Services - Kalamazoo College</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+</head>
+<body>
+<div data-role="page" id="home">
+	<div data-role="header">
+		<h1>
+			Welcome
+		</h1>
+	</div>
+	<div data-role="content">
+		<p>Your dining experience is more than great food.  It is community experience centered on culinary expertise, fresh ingredients, healthy options and a shared sense of environmental and social responsibility.  Our team is committed to creating the best possible dining experience.  Join us to experience the comfort, convenience, outstanding food and inviting atmosphere designed especially for you.</p>
+		<p>
+			<h2>
+				Dining Halls
+			</h2>
+			<a data-role="button" href="#welles">
+				Welles Dining Hall
+			</a>
+			<a data-role="button" href="#richardson">
+				Richardson Room Deli
+			</a>
+			<h2>
+				Information
+			</h2>
+			<a data-role="button" href="#plans">
+				Dining Plans
+			</a>
+			<a data-role="button" href="#news">
+				News
+			</a>
+		</p>
+	</div>
+	<div data-role="footer">
+		<p>
+		&copy; Copyright Sodexo. All rights reserved.
+		</p>
+	</div>
+</div>
+<div data-role="page" id="welles">
+	<div data-role="header">
+		<h1>
+			Welles Dining Hall
+		</h1>
+	</div>
+	<div data-role="content">
+		<p>
+		Finding your favorite foods on campus is easy. We are proud to be offering Quality Cuisine in a Sustainable Environment.  Check out our oven fired Pizza from our Stone Oven or an International delight from our International Cuisine Station.  Our Salad Bar offers fresh made Salads, Fruit & Greens with as much Local Foods as the Season allows.  If you drink Coffee check out our Fair Trade Coffee by Aspretto.</p>
 
-				<p>Phasellus eu quam. Quisque interdum cursus purus. In orci. Maecenas
-				vehicula. Sed et mauris. Praesent feugiat viverra lacus. Suspendisse pulvinar
-				lacus ut nunc. Quisque nisi. Suspendisse id risus nec nisi ultrices ornare.
-				Donec eget tellus. Nullam molestie placerat felis. Aenean facilisis. Nunc erat.
-				Integer in tellus. Mauris volutpat, neque vel ornare porttitor, dolor nisi
-				sagittis dolor, sit amet bibendum orci leo blandit lacus.</p>
+		<p>Featuring a wide variety of fresh food designed to satisfy everyone's appetite with food choices to rival your favorite restaurants
+		</p>
+	</div>
+	<div data-role="footer">
+		<p>
+			<a href="#home">
+				Go Back
+			</a>
+		</p>
+	</div>
+</div>
+<div data-role="page" id="richardson">
+	<div data-role="header">
+		<h1>
+			Richardson Room Deli
+		</h1>
+	</div>
+	<div data-role="content">
+		<p>
+			Featuring freshly prepared Sandwiches, Panini’s and Wraps.  We also offer Homemade Soups, Salads and Individual Pizzas.  Don’t forget to grab a cup of Aspretto Coffee, Tea or a freshly made Smoothie.
+		</p>
+	</div>
+	<div data-role="footer">
+		<p>
+			<a href="#home">
+				Go Back
+			</a>
+		</p>
+	</div>
+</div>
+<div data-role="page" id="plans">
+	<div data-role="header"><h1>A Plan for You</h1></div>
+	<div data-role="content">
+		<p>
+			In order to meet your campus dining needs, we have designed the following meal plans for the 2012-2013 academic year.  If you need to purchase a meal plan, or if you would like to make a change to the plan you have already selected, simply contact Susan Matheson at (269) 337-7370.
+		</p>
+		<table>
+		<tr>
+			<th>Meal Plans</th>
+			<th>Description*</th>
+		</tr>
+		<tr>
+			<td>Carte Blanche Premium</td>
+			<td>20 meals / week + $115 munch money / term*</td>
+		</tr>
+		<tr>
+			<td>Carte Blanche + $15</td>
+			<td>20 meals / week + $15 munch money / term*</td>
+		</tr>
+		<tr>
+			<td>15 meals Premium</td>
+			<td>15 meals / week + 125 munch money / term*</td>
+		</tr>
+		<tr>
+			<td>15 meals + 25$</td>
+			<td>15 meals / week + $25 munch money / term*</td>
+		</tr>
+		<tr>
+			<td>10 meals Premium</td>
+			<td>10 meals / week + $135 munch money / term*</td>
+		</tr>
+		<tr>
+			<td>10 meals + $35</td>
+			<td>10 meals / week + $35 munch money / term*</td>
+		</tr>
+		<tr>
+			<td>100 Block + $100</td>
+			<td>100 meals / term + $100 munch money / term*</td>
+		</tr>
+		</table>
+		<p>
+		* Munch Money for all meal plans will carry over from term to term.  However, any unused Munch Money at the end of the spring term will be forfeited.</p>
+		<p>
+		Selection of a Campus Dining Services Meal Plan entitles you to a Meal Card, which allows you purchasing power equivalent to the plan you have selected. Lost or stolen Meal Cards can be replaced. Should this happen to you, contact Kalamazoo Security office.
+		</p>
+		<h2>
+			Sodexo Dining also offers a meal plan designed for commuters.
+		</h2>
+		<ul>
+			<li>25 meals / $160</li>
+			<li>50 meals / $295</li>
+			<li>75 meals / $430</li>
+		</ul>
+		<p>
+			To purchase a commuter meal plan contact the Sodexo Dining Office at (269) 337-5728. Plans may be purchased using cash, credit card or checks payable to Sodexo.
+		</p>
+		<h2>
+			Dining Policies
+		</h2>
+		<p>
+			One of our main goals is to provide a pleasant, clean, comfortable and satisfying dining experience. In order to meet this goal, we ask for your assistance with the following procedures:
+		</p>
+		<ul>
+			<li>Please bus your dishes and disposables from your table when you have finished dining</li>
+			<li>Please refrain from taking food, dishes or utensils from the dining area.</li>
+			<li>Remember that Meal Cards are non-transferable.  Meal cards cannot be used by anyone but the purchaser.</li>
+			<li>We are one of the leading college campuses in the country for Sustainability please help us by taking only what you can eat, scraping food waste into our composting bins and recycling any disposables that you may bring in.</li>
+		</ul>
+		<h3>
+			Seconds Policy
+		</h3>
+		<p>You never have to be too shy to ask for seconds with our Campus Dining Program. Our generous policy allows for a second helping of many menu favorites. All you have to do is ask! Please note, however, that there are exceptions to our Seconds Policy including some specialty nights (e.g., Steak Night).</p>
+	</div>
+	<div data-role="footer">
+		<p>
+			<a href="#home">
+				Go Back
+			</a>
+		</p>
+	</div>
+</div>
+<div data-role="page" id="news">
+	<div data-role="header">
+		<h1>
+			News Bites
+		</h1>
+	</div>
+	<div data-role="content">
+		<p>
+		The Campus Dining Services team, a part of Student Life Services and the Kalamazoo College community, is committed to providing the highest level of quality food and service at a great value. We offer a variety of dining services including daily meals for both resident and off-campus students, high-quality catering services, concessions and gift baskets.</p>
 
-				<p>In id velit sodales arcu iaculis venenatis. Etiam at leo. Vivamus vitae sem.
-				Mauris volutpat congue risus. Curabitur leo. Aenean tempor tortor eget ligula.
-				Aenean vel augue. Vestibulum ac justo. In hac habitasse platea dictumst. Nam
-				dignissim nisi non mauris. Donec et tortor. Morbi felis. Donec aliquet, erat eu
-				ultrices tincidunt, lorem mi sagittis lectus, ut feugiat pede lacus quis
-				sapien. Suspendisse porta, felis a fermentum interdum, dui nisl sodales felis,
-				ut fermentum sapien nibh eu nunc.</p>
+			<p>			If you have any questions, please call our main office on campus at (269) 337-7370 or visit us in the Hicks Center. We look forward to serving you!</p>
 
-				<p>Lorem ipsum dolor sit amet. Integer sed magna. Duis nisl nulla, porta ut,
-				molestie sit amet, tincidunt eu, enim. Cras eu mauris. Cras iaculis, nisi vel
-				tempor fringilla, nisl dolor imperdiet dolor, id lobortis ligula nunc sed
-				dolor.</p>
-
-				<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-				inceptos himenaeos. Curabitur eu dui vitae nulla tempor consectetuer.
-				Suspendisse ligula dolor, varius nec, vulputate id, luctus sed, lacus.
-				Pellentesque purus urna, porta molestie, mattis non, posuere et, velit.
-				Curabitur diam mauris, dictum vel, lacinia congue, molestie at, nisi. Proin
-				tempus diam ut ligula. Mauris dictum, metus dapibus iaculis sollicitudin, leo
-				ligula cursus sem, eu congue metus ligula sed justo. Suspendisse potenti. Donec
-				sodales elementum turpis. Duis dolor elit, dapibus sed, placerat vitae, auctor
-				sit amet, nunc. Donec nisl quam, hendrerit vitae, porttitor et, imperdiet id,
-				quam. Quisque dolor. Nulla tincidunt, lacus id dapibus ullamcorper, turpis diam
-				fringilla eros, quis aliquet dolor felis at lorem. Pellentesque et lacus.
-				Vestibulum tempor lectus at est. Pellentesque habitant morbi tristique senectus
-				et netus et malesuada fames ac turpis egestas. Sed vitae eros. Nulla pulvinar
-				turpis eget nunc. Sed bibendum pellentesque nunc. Integer tristique, lorem ac
-				faucibus tempor, lorem dolor mollis turpis, a consectetuer nunc justo ac
-				nisl.</p>
-
-				<p>Nam vitae purus. Cum sociis natoque penatibus et magnis dis parturient
-				montes, nascetur ridiculus mus. Praesent semper magna. In eu justo. Nunc vitae
-				risus nec sem scelerisque consequat. In hac habitasse platea dictumst. Nam
-				posuere ultricies turpis. Pellentesque a pede. Duis sed tortor. Phasellus
-				egestas porta lectus. Aliquam dignissim consequat diam. Pellentesque pede.</p>
-
-				<p>Ut varius tincidunt tellus. Curabitur ornare ipsum. Aenean laoreet posuere
-				orci. Etiam id nisl. Suspendisse volutpat elit molestie orci. Suspendisse vel
-				augue at felis tincidunt sollicitudin. Fusce arcu. Duis a tortor. Duis et odio
-				et leo sollicitudin consequat. Aliquam lobortis. Phasellus condimentum. Ut
-				porttitor bibendum libero. Integer euismod lacinia velit. Donec velit justo,
-				sodales varius, cursus sed, mattis a, arcu.</p>
-
-				<p>Maecenas.</p>
-				<!--/lorem-->
-			</article>
-			<aside>
-				<h3>Status Quo</h3>
-				<!--lorem-->
-				<p>Enim, a sagittis nulla nunc quis elit. Phasellus augue. Nunc suscipit, magna
-				tincidunt lacinia faucibus, lacus tellus ornare purus, a pulvinar lacus orci
-				eget nibh. Maecenas sed nibh non lacus tempor faucibus. In hac habitasse platea
-				dictumst. Vivamus a orci at nulla tristique condimentum. Donec arcu quam,
-				dictum accumsan, convallis accumsan, cursus sit amet, ipsum. In pharetra
-				sagittis nunc.</p>
-
-				<p>Donec consequat mi. Quisque vitae dolor. Integer lobortis. Maecenas id
-				nulla. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed volutpat
-				felis vitae dui. Vestibulum et est ac ligula dapibus elementum. Nunc suscipit
-				nisl eu felis. Duis nec tortor. Nullam diam libero, semper id, consequat in,
-				consectetuer ut, metus. Phasellus dui purus, vehicula sed, venenatis a, rutrum
-				at, nunc. Pellentesque interdum sapien nec neque.</p>
-
-				<p>Vivamus sagittis, sem sit amet porttitor lobortis, turpis sapien consequat
-				orci, sed commodo nulla pede eget sem. Phasellus sollicitudin. Proin orci erat,
-				blandit ut, molestie sed, fringilla non, odio. Nulla.</p>
-				<!--/lorem-->
-			</aside>
-			<footer>
-				<nav id="botNav">
-					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Archives</a></li>
-						<li><a href="#">Desktop Site</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-				</nav>
-				A Simple Blog &copy; Lorem Ipsum
-			</footer>
-		</div>
-	</body>
+			<p>			Susan Matheson, General Manager 
+							Kalamazoo College</p>
+	</div>
+	<div data-role="footer">
+		<p>
+			<a href="#home">
+				Go Back
+			</a>
+		</p>
+	</div>
+</div>
+</body>
 </html>
